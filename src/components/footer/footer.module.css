@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rebeccapurple;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.left p {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.right a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.right a:hover {
+  color: #ffa500;
+}
