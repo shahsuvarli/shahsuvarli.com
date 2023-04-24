@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function Sehdi() {
+function Sehvdi() {
   return (
     <div>
       <Link href={"/"}>go back</Link>
@@ -9,4 +9,4 @@ function Sehdi() {
   );
 }
 
-export default Sehdi;
+export default Sehvdi;

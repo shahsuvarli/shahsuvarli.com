@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from './home.module.css'
 
-function Home() {
+function HomeContainer() {
   return (
-    <div>Home</div>
-  )
+    <div className={styles.homeContainer}>
+      <div>Elvin Shahsuvarli</div>
+    </div>
+  );
 }
 
-export default Home
+export default HomeContainer;

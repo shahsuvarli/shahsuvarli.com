@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "../header";
 import Footer from "../footer";
+import styles from './layout.module.css'
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className={styles.layoutContainer}>
       <Header />
       {children}
       <Footer />
