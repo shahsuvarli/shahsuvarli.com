@@ -3,7 +3,7 @@ My Portfolio - shahsuvarli.com
 
 👋 Hi there! Welcome to my portfolio repository.
 
-This is my personal website where I showcase my projects and share a little bit about myself. You can check it out at [shahsuvarli.com](https://shahsuvarli.com/).
+This is my personal website where I showcase my projects and share a little bit about myself. You can check it out at [shahsuvarli.com](https://shahsuvarli.netlify.app/).
 
 🚀 Getting Started
 ------------------
