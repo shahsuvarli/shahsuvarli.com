@@ -10,7 +10,7 @@ This is my personal website where I showcase my projects and share a little bit 
 
 If you want to run this project locally, you can clone the repository and install the dependencies:
 
-`git clone https://github.com/shahsuvarli/shahsuvarli.com-website.git cd portfolio npm install`
+`git clone https://github.com/shahsuvarli/shahsuvarli.com.git cd portfolio npm install`
 
 After that, you can start the development server:
 
