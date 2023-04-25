@@ -1,7 +1,8 @@
 .aboutContainer{
-    background-color: dodgerblue;
-    height: 500px;
+    /* background-color: dodgerblue; */
+    /* height: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* min-height: 100vh; */
 }

@@ -1,6 +1,15 @@
+:root {
+  --header-height: 70px;
+}
+
 :root,
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+nav {
+  position: fixed;
+  right: 5%;
 }
