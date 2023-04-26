@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "./home.module.css";
+import Image from "next/image";
+import profile from '../../../public/images/profile.png'
 
 function HomeContainer() {
   return (
     <div className={styles.homeContainer}>
-      <h1>Frontend Developer</h1>
+      {/* <Image src={profile} width={'20%'} alt="profile image"/> */}
+      {/* <h1>Frontend Developer</h1>
       <h5>
         Transforming dreams into digital reality with the power of code and
         creativity.
@@ -13,7 +16,7 @@ function HomeContainer() {
         Experienced Frontend Developer with skills in JavaScript, HTML, CSS,
         ReactJS, and Next.js. Creating user-friendly websites and applications
         is my passion.
-      </p>
+      </p> */}
     </div>
   );
 }
