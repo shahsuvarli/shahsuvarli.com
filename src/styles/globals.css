@@ -1,15 +1,26 @@
+@import url("./reset.css");
+
 :root {
   --header-height: 70px;
+  --footer-height: 30px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 
 :root,
 html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-nav {
-  position: fixed;
-  right: 5%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }

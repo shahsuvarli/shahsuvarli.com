@@ -1,12 +1,12 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2rem 3rem;
-  position: absolute;
   bottom: 0;
   width: 100%;
   position: fixed;
+  height: var(--footer-height);
   box-sizing: border-box;
 }
 

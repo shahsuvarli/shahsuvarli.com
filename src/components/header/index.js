@@ -11,9 +11,6 @@ function Header({ handleMenu, menu }) {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logoContainer}>
-        <Image src={Logo} alt="Dummy Logo" className={styles.logo} />
-      </div>
       <nav className={styles.nav}>
         <div className={styles.burgerMenu} onClick={handleShowModal}>
           <div className={styles.line}></div>
@@ -22,13 +19,13 @@ function Header({ handleMenu, menu }) {
         </div>
 
         <ul className={styles.navList}>
-          {menu.map((item) => {
-            <li className={styles.navItem} key={item.id}>
+          {menu.map((item) => (
+            <li key={item.id}>
               <Link href={item.link} className={styles.navLink}>
                 {item.name}
               </Link>
-            </li>;
-          })}
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
