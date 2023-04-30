@@ -9,7 +9,6 @@ import { BiSlideshow } from "react-icons/bi";
 function ProjectsContainer() {
   return (
     <div className={styles.projectsContainer}>
-      {/* <h1 className={styles.proectjsHeader}>My works</h1> */}
       <div className={styles.myProjects}>
         {projects.map((project) => {
           const imagePath = project.image;
