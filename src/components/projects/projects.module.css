@@ -51,7 +51,8 @@
   position: relative;
   width: 250px;
   height: 250px;
-  background-color: rgba(63, 66, 68, 0.367);
+  background-color: #fff;
+  /* background-color: rgba(63, 66, 68, 0.367); */
   display: flex;
   justify-content: center;
   align-items: center;
