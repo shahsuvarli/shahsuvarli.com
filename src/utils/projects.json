@@ -5,7 +5,7 @@
     "githubLink": "https://github.com/shahsuvarli/chat-centre",
     "viewLink": "https://chatcentre.netlify.app/",
     "description": "Lorem ipsum",
-    "image": "/../public/images/chat.jpg"
+    "image": "/images/chat.jpg"
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
     "viewLink": "https://ms-dash.netlify.app",
     "description": "Lorem ipsum",
-    "image": "/../public/images/dashboard.jpg"
+    "image": "/images/dashboard.jpg"
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "githubLink": "https://github.com/shahsuvarli/admin-foody",
     "viewLink": "https://food-delivery-admin.netlify.app",
     "description": "Lorem ipsum",
-    "image": "/../public/images/delivery.jpg"
+    "image": "/images/delivery.jpg"
   }
 ]

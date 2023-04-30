@@ -17,9 +17,9 @@ function ProjectsContainer() {
             <div key={project.id} className={styles.projectContainer}>
               <div className={styles.projectCard}>
                 <Image
-                  quality={100}
-                  width={100}
-                  height={100}
+                  // quality={100}
+                  width={300}
+                  height={300}
                   src={imagePath}
                   alt={project.name}
                   className={styles.projectImage}
