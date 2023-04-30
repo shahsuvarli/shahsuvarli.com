@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import Stack from "./Stack";
+import Stack from "./stack";
 import Link from "next/link";
 
 function HomeContainer() {
