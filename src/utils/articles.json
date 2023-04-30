@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "header": "First Article",
+    "article": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum quam eu ultricies molestie.",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "header": "Second Article",
+    "article": "Maecenas consectetur augue quis velit posuere, id imperdiet tellus eleifend. Donec tincidunt luctus mi id eleifend.",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "header": "Third Article",
+    "article": "Pellentesque in lacus velit. Morbi eget bibendum mi. Vivamus vel ex sit amet nibh mattis imperdiet ac quis purus.",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "header": "Fourth Article",
+    "article": "Etiam eu ipsum eu felis feugiat suscipit non sit amet lectus. Morbi varius quam a nibh commodo, at fringilla risus laoreet.",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "header": "Fifth Article",
+    "article": "Sed sit amet justo efficitur, suscipit nunc vel, laoreet risus. Fusce sit amet semper lacus. Nam in mauris mauris.",
+    "image": ""
+  }
+]

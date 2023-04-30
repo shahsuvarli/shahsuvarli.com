@@ -66,10 +66,6 @@
   font-size: 17px;
 }
 
-.projectCard:hover {
-  /* cursor: pointer; */
-}
-
 .projectCard:hover .iconsContainer {
   display: flex;
   border-radius: 7px;

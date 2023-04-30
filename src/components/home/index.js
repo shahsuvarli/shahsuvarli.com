@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import Stack from "./stack";
+import Stack from "./Stack";
 import Link from "next/link";
 
 function HomeContainer() {
@@ -15,9 +15,7 @@ function HomeContainer() {
             <button className={styles.button}>my works &#8594;</button>
           </Link>
         </div>
-        {/* <div> */}
         <Stack />
-        {/* </div> */}
       </div>
     </div>
   );

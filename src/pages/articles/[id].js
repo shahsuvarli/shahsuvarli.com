@@ -1,9 +1,15 @@
-import React from 'react'
+import Article from "@/components/articles/article";
+import Layout from "@/components/layout";
+import React from "react";
 
 function Articles() {
   return (
-    <div>Articles</div>
-  )
+    <div>
+      <Layout >
+        <Article/>
+      </Layout>
+    </div>
+  );
 }
 
-export default Articles
+export default Articles;

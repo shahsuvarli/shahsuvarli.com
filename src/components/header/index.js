@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./header.module.css";
-import Logo from "../../../public/images/logo.jpg";
-import Image from "next/image";
 import Link from "next/link";
 
 function Header({ handleMenu, menu }) {
