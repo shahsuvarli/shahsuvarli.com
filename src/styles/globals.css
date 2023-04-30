@@ -3,6 +3,8 @@
 :root {
   --header-height: 70px;
   --footer-height: 30px;
+  --bg-color: #10101a;
+  --page-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 

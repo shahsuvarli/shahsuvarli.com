@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./footer.module.css";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,8 +9,8 @@ function Footer() {
       <a href="https://github.com/shahsuvarli">
         <FaGithub />
       </a>
-      <a href="https://twitter.com/shahsuvarli">
-        <FaTwitter />
+      <a href="https://instagram.com/shahsuvarli_">
+        <FaInstagram />
       </a>
       <a href="https://linkedin.com/in/shahsuvarli">
         <FaLinkedin />
