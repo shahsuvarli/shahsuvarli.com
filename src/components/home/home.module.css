@@ -12,7 +12,6 @@
   display: flex;
   font-family: "Ubuntu", sans-serif;
   flex-direction: row;
-  /* border: 1px solid #fff; */
 }
 
 .leftContent {
@@ -67,14 +66,10 @@
   justify-content: center;
   align-items: center;
   border-left: 1px solid #fff;
-  margin-bottom: calc(var(--footer-height) + 50px);
 }
 
 .stack img {
-  /* width: 50px;
-  height: 50px; */
   object-fit: contain;
-  /* border: 1px solid #fff; */
 }
 
 #nextjs {
@@ -85,6 +80,8 @@
 @media screen and (max-width: 1200px) {
   .homeContainer {
     gap: 30px;
+    flex-direction: row;
+    align-items: normal;
   }
 
   .leftContent {
@@ -94,7 +91,6 @@
     align-items: center;
     padding: 0;
     text-align: center;
-    /* background-color: rebeccapurple; */
     margin-bottom: 50px;
   }
 
