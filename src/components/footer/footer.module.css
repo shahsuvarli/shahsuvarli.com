@@ -5,29 +5,18 @@
   padding: 2rem 3rem;
   bottom: 0;
   width: 100%;
-  position: fixed;
+  position: absolute;
+  gap: 40px;
   height: var(--footer-height);
   box-sizing: border-box;
+  background-color: #0f0f0f;
 }
 
-.left p {
-  font-size: 1.2rem;
-}
-
-.right a {
+.footer a {
   font-size: 1.5rem;
   color: #fff;
 }
 
-.right{
-  /* background-color: dodgerblue; */
-  width: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.right a:hover {
+.footer a:hover {
   color: #ffa500;
 }

@@ -6,17 +6,15 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className={styles.footer}>
-      <div className={styles.right}>
-        <a href="https://github.com/myusername">
-          <FaGithub />
-        </a>
-        <a href="https://twitter.com/myusername">
-          <FaTwitter />
-        </a>
-        <a href="https://linkedin.com/in/myusername">
-          <FaLinkedin />
-        </a>
-      </div>
+      <a href="https://github.com/shahsuvarli">
+        <FaGithub />
+      </a>
+      <a href="https://twitter.com/shahsuvarli">
+        <FaTwitter />
+      </a>
+      <a href="https://linkedin.com/in/shahsuvarli">
+        <FaLinkedin />
+      </a>
     </footer>
   );
 }
