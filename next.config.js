@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  trailingSlash: true,
   reactStrictMode: true,
   images: {
     domains: [
@@ -9,7 +10,7 @@ const nextConfig = {
       "raw.githubusercontent.com",
       "v4.mui.com",
       "cdn.icon-icons.com",
-      "www.vectorlogo.zone"
+      "www.vectorlogo.zone",
     ],
   },
 };
