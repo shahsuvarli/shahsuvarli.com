@@ -1,8 +1,54 @@
-.aboutContainer{
-    /* background-color: dodgerblue; */
-    /* height: 500px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* min-height: 100vh; */
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.cards {
+  width: 300px;
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 16px;
+  display: flex;
+  /* background: rgba(255, 255, 255, 0.37); */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+  border: 1px solid rgb(255, 255, 255);
+  padding: 17px;
+  box-shadow: 0 10px 10px 5px rgba(243, 241, 241, 0.1);
+}
+
+.card:hover {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  margin: 1rem 0;
+}
+
+.card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.content {
+  font-size: 25px;
+}
+
+@media screen and (max-width:950px) {
+    .card{
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        display: none;
+    }
+    
 }

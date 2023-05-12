@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./footer.module.css";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Footer() {
-  const currentYear = new Date().getFullYear();
   return (
     <footer className={styles.footer}>
       <a href="https://github.com/shahsuvarli">
