@@ -1,10 +1,8 @@
 .projectsContainer {
   display: flex;
-  /* justify-content: center; */
   padding: 5% 0;
   align-items: center;
   flex-direction: column;
-  height: var(--page-height);
   box-sizing: border-box;
   margin-bottom: 100px;
 }
@@ -52,7 +50,6 @@
   width: 250px;
   height: 250px;
   background-color: #fff;
-  /* background-color: rgba(63, 66, 68, 0.367); */
   display: flex;
   justify-content: center;
   align-items: center;

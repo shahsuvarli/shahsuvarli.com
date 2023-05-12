@@ -41,9 +41,9 @@ function Layout({ children }) {
           </ul>
         </div>
       </div>
-      <Header handleMenu={handleChildMenu} menu={menu} />
+      {/* <Header handleMenu={handleChildMenu} menu={menu} /> */}
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

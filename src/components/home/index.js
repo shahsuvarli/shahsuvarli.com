@@ -2,18 +2,39 @@ import React from "react";
 import styles from "./home.module.css";
 import Stack from "./stack";
 import Link from "next/link";
+import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 function HomeContainer() {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.subContainer}>
         <div className={styles.leftContent}>
-          <h5 className={styles.contentSubheader}>hi there 👋, i am</h5>
           <h1 className={styles.contentHeader}>Elvin</h1>
-          <p className={styles.position}>frontend developer 👨‍💻</p>
-          <Link href={"/projects"} className={styles.buttonLink}>
-            <button className={styles.button}>my works &#8594;</button>
-          </Link>
+          <p className={styles.position}>frontend developer</p>
+          <div className={styles.buttons}>
+            <a
+              href={
+                "https://firebasestorage.googleapis.com/v0/b/portfolio-82fbb.appspot.com/o/Elvin%20Shahsuvarli%20CV.pdf?alt=media&token=64fe7da5-ba76-4205-9831-65c9473df6e4"
+              }
+              target="_blank"
+            >
+              <button className={styles.button}>CV (pdf)</button>
+            </a>
+            <Link href={"/projects"} className={styles.buttonLink}>
+              <button className={styles.button}>projects</button>
+            </Link>
+          </div>
+          <div className={styles.icons}>
+            <a href="https://github.com/shahsuvarli" target="_blank">
+              <BsGithub size={30} />
+            </a>
+            <a href="https://linkedin/in/shahsuvarli" target="_blank">
+              <BsLinkedin size={30} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCisTXXhZhVMsEJW_tv54mGg" target="_blank">
+              <BsYoutube size={30} />
+            </a>
+          </div>
         </div>
         <Stack />
       </div>

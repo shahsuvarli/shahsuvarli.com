@@ -1,14 +1,17 @@
-import Head from "next/head";
 import React from "react";
 import styles from "./projects.module.css";
 import projects from "../../utils/projects.json";
 import Image from "next/image";
 import { BsGithub } from "react-icons/bs";
-import { BiSlideshow } from "react-icons/bi";
+import { BiHome, BiSlideshow } from "react-icons/bi";
+import Link from "next/link";
 
 function ProjectsContainer() {
   return (
     <div className={styles.projectsContainer}>
+      <Link href={"/"}>
+        <BiHome color="#fff" size={50} />
+      </Link>
       <div className={styles.myProjects}>
         {projects.map((project) => {
           const imagePath = project.image;
