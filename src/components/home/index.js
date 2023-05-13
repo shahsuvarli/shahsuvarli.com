@@ -28,7 +28,7 @@ function HomeContainer() {
             <a href="https://github.com/shahsuvarli" target="_blank">
               <BsGithub size={30} />
             </a>
-            <a href="https://linkedin/in/shahsuvarli" target="_blank">
+            <a href="https://linkedin.com/in/shahsuvarli" target="_blank">
               <BsLinkedin size={30} />
             </a>
             <a href="https://www.youtube.com/channel/UCisTXXhZhVMsEJW_tv54mGg" target="_blank">
