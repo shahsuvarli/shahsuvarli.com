@@ -14,7 +14,7 @@ function HomeContainer() {
           <div className={styles.buttons}>
             <a
               href={
-                "https://firebasestorage.googleapis.com/v0/b/portfolio-82fbb.appspot.com/o/Elvin%20Shahsuvarli%20CV.pdf?alt=media&token=64fe7da5-ba76-4205-9831-65c9473df6e4"
+                "https://firebasestorage.googleapis.com/v0/b/portfolio-82fbb.appspot.com/o/Elvin%20Shahsuvarli%20CV.pdf?alt=media&token=19383572-798f-41f9-ab0c-fd50aa6df86b"
               }
               target="_blank"
             >
@@ -31,7 +31,10 @@ function HomeContainer() {
             <a href="https://linkedin.com/in/shahsuvarli" target="_blank">
               <BsLinkedin size={30} />
             </a>
-            <a href="https://www.youtube.com/channel/UCisTXXhZhVMsEJW_tv54mGg" target="_blank">
+            <a
+              href="https://www.youtube.com/channel/UCisTXXhZhVMsEJW_tv54mGg"
+              target="_blank"
+            >
               <BsYoutube size={30} />
             </a>
           </div>
