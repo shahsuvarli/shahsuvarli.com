@@ -3,7 +3,7 @@
 :root {
   --header-height: 70px;
   --footer-height: 30px;
-  --bg-color: #10101a;
+  /* --bg-color: #10101a; */
   --page-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
@@ -14,6 +14,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+
 }
 
 h1,
