@@ -1,26 +1,35 @@
 [
   {
     "id": 0,
-    "name": "Chat Centre",
+    "name": "Chat App: Chat Centre",
     "githubLink": "https://github.com/shahsuvarli/chat-centre",
     "viewLink": "https://chatcentre.netlify.app/",
     "description": "Lorem ipsum",
-    "image": "/images/chat.jpg"
+    "image": "/images/chat.jpg",
+    "tools": [
+      "next.js",
+      "firebase-auth",
+      "MUI",
+      "firebase-firestore",
+      "redux-toolkit"
+    ]
   },
   {
     "id": 1,
-    "name": "MS Dashboard",
+    "name": "Dashboard: Morgan Stanley",
     "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
     "viewLink": "https://ms-dash.netlify.app",
     "description": "Lorem ipsum",
-    "image": "/images/dashboard.jpg"
+    "image": "/images/dashboard.jpg",
+    "tools": ["react.js", "chart.js", "bootstrap"]
   },
   {
     "id": 2,
-    "name": "Admin Foody",
+    "name": "Delivery App: Foody",
     "githubLink": "https://github.com/shahsuvarli/admin-foody",
     "viewLink": "https://food-delivery-admin.netlify.app",
     "description": "Lorem ipsum",
-    "image": "/images/delivery.jpg"
+    "image": "/images/delivery.jpg",
+    "tools": ["react.js", "styled-components", "i18n"]
   }
 ]

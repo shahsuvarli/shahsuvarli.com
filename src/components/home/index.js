@@ -3,14 +3,19 @@ import styles from "./home.module.css";
 import Stack from "./stack";
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { Head } from "next/document";
+import Header from "../header";
 
 function HomeContainer() {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.subContainer}>
         <div className={styles.leftContent}>
-          <h1 className={styles.contentHeader}>Elvin</h1>
+          <h1 className={styles.contentHeader}>Elvin Shah</h1>
           <p className={styles.position}>frontend developer</p>
+          <span className="text-sm m-4 border border-white rounded-sm">
+            el.shahsuvarli@gmail.com
+          </span>
           <div className={styles.buttons}>
             <a
               href={
@@ -18,7 +23,7 @@ function HomeContainer() {
               }
               target="_blank"
             >
-              <button className={styles.button}>CV (pdf)</button>
+              <button className={styles.button}>resume</button>
             </a>
             <Link href={"/projects"} className={styles.buttonLink}>
               <button className={styles.button}>projects</button>

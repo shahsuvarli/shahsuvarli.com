@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../header";
 import Footer from "../footer";
-import styles from "./layout.module.css";
 import menu from "../../utils/menu.json";
 import Link from "next/link";
 
 function Layout({ children }) {
-  const [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const handleChildMenu = (value) => {
     setShowModal(value);
@@ -17,27 +16,22 @@ function Layout({ children }) {
   };
 
   return (
-    <div className={styles.layoutContainer}>
+    <div className="max-h-max-content overflow-auto text-gray-300 flex flex-col font-sans">
       <div
-        className={`${styles.menuModal} ${
-          showModal ? styles.showModal : undefined
+        className={`fixed top-0 left-0 w-full h-screen bg-opacity-70 bg-gray-900 flex items-center justify-center ${
+          showModal ? "flex" : "hidden"
         }`}
         onClick={closeModal}
       >
-        <div className={styles.modalCard}>
-          <ul className={styles.menuElements}>
-            {menu.map((item) => {
-              return (
-                <li key={item.id}>
-                  <Link
-                    href={item.link}
-                    style={{ textDecoration: "none", color: "#fff" }}
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              );
-            })}
+        <div className="p-6">
+          <ul className="text-center">
+            {menu.map((item) => (
+              <li key={item.id} className="mb-4 text-3xl">
+                <Link href={item.link} className="no-underline text-white">
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
