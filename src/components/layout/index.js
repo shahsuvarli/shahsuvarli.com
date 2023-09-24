@@ -1,15 +1,9 @@
 import React, { useState } from "react";
-import Header from "../header";
-import Footer from "../footer";
 import menu from "../../utils/menu.json";
 import Link from "next/link";
 
 function Layout({ children }) {
   const [showModal, setShowModal] = useState(false);
-
-  const handleChildMenu = (value) => {
-    setShowModal(value);
-  };
 
   const closeModal = () => {
     setShowModal(false);
@@ -35,9 +29,7 @@ function Layout({ children }) {
           </ul>
         </div>
       </div>
-      {/* <Header handleMenu={handleChildMenu} menu={menu} /> */}
       {children}
-      {/* <Footer /> */}
     </div>
   );
 }

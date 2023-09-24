@@ -1,11 +1,7 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-// import styles from "@/styles/Home.module.css";
 import Layout from "@/components/layout";
 import React from "react";
 import HomeContainer from "../components/home/index";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ children }) {
   return (

@@ -29,20 +29,20 @@ function ProjectsContainer() {
                   className="object-contain rounded-md"
                 />
                 <div className="absolute inset-0 flex justify-center items-center bg-opacity-75 bg-gray-600 gap-5 transition-opacity duration-300 opacity-0 hover:opacity-100 hover:border-opacity-100 hover:rounded-7 cursor-pointer rounded-md">
-                  <a href={project.githubLink} target="_blank">
+                  <Link href={project.githubLink} target="_blank">
                     <BsGithub
                       size={40}
                       color="#fff"
                       className="text-white text-2xl"
                     />
-                  </a>
-                  <a href={project.viewLink} target="_blank">
+                  </Link>
+                  <Link href={project.viewLink} target="_blank">
                     <BiSlideshow
                       size={40}
                       color="#fff"
                       className="text-white text-2xl"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <p className="text-base">{project.name}</p>

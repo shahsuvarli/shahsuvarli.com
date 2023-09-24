@@ -2,13 +2,14 @@ import React from "react";
 import styles from "./home.module.css";
 import stack from "../../utils/stack.json";
 import Image from "next/image";
+import Link from "next/link";
 
 function Stack() {
   return (
     <div className={styles.stack}>
       {stack.map((item, index) => {
         return (
-          <a
+          <Link
             href={item.href}
             key={item.alt}
             target="_blank"
@@ -23,7 +24,7 @@ function Stack() {
               alt={item.alt}
               title={item.alt}
             />
-          </a>
+          </Link>
         );
       })}
     </div>
