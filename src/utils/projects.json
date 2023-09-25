@@ -7,7 +7,7 @@
     "description": "Lorem ipsum",
     "image": "/images/chat.jpg",
     "tools": [
-      "next.js",
+      "next",
       "firebase-auth",
       "MUI",
       "firebase-firestore",
@@ -16,12 +16,12 @@
   },
   {
     "id": 1,
-    "name": "Dashboard: Morgan Stanley",
+    "name": "Dashboard: MS Dash",
     "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
     "viewLink": "https://ms-dash.netlify.app",
     "description": "Lorem ipsum",
     "image": "/images/dashboard.jpg",
-    "tools": ["react.js", "chart.js", "bootstrap"]
+    "tools": ["react", "chart.js", "bootstrap"]
   },
   {
     "id": 2,
@@ -30,6 +30,21 @@
     "viewLink": "https://food-delivery-admin.netlify.app",
     "description": "Lorem ipsum",
     "image": "/images/delivery.jpg",
-    "tools": ["react.js", "styled-components", "i18n"]
+    "tools": ["react", "styled-components", "i18n"]
+  },
+  {
+    "id": 3,
+    "name": "CRM App: Lapp",
+    "githubLink": "https://github.com/shahsuvarli/lapp",
+    "viewLink": "https://lapp.vercel.app",
+    "description": "Lorem ipsum",
+    "image": "/images/crm.jpg",
+    "tools": [
+      "next",
+      "prisma-orm",
+      "azure",
+      "styled-components",
+      "MUI"
+    ]
   }
 ]
