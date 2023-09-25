@@ -20,6 +20,36 @@
     "alt": "nextjs"
   },
   {
+    "href": "https://redux.js.org",
+    "src": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Redux.svg",
+    "alt": "redux vs redux-toolkit"
+  },
+  {
+    "href": "https://www.w3.org/html/",
+    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+    "alt": "html5"
+  },
+  {
+    "href": "https://www.w3schools.com/css/",
+    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+    "alt": "css3"
+  },
+  {
+    "href": "https://www.python.org/",
+    "src": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Python-Light.svg",
+    "alt": "python"
+  },
+  {
+    "href": "https://www.prisma.io/",
+    "src": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Prisma.svg",
+    "alt": "prisma"
+  },
+  {
+    "href": "https://azure.microsoft.com/en-us",
+    "src": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Azure-Light.svg",
+    "alt": "azure"
+  },
+  {
     "href": "https://firebase.google.com",
     "src": "https://user-images.githubusercontent.com/290451/76235994-04b94800-623d-11ea-9b5b-f7a1626ecb06.png",
     "alt": "firebase"
@@ -34,16 +64,6 @@
     "href": "https://mui.com",
     "src": "https://v4.mui.com/static/logo.png",
     "alt": "mui"
-  },
-  {
-    "href": "https://www.w3.org/html/",
-    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-    "alt": "html5"
-  },
-  {
-    "href": "https://www.w3schools.com/css/",
-    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
-    "alt": "css3"
   },
   {
     "href": "https://www.w3schools.com/jquery/",
@@ -69,10 +89,5 @@
     "href": "https://www.sqlite.org/",
     "src": "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
     "alt": "sqlite"
-  },
-  {
-    "href": "https://redux.js.org",
-    "src": "https://avatars.githubusercontent.com/u/13142323?s=200&v=4",
-    "alt": "redux"
   }
 ]

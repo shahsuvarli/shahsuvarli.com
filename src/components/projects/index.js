@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function ProjectsContainer() {
   return (
-    <div className="flex flex-col items-center py-20 box-border h-screen">
+    <div className="flex flex-col items-center py-20 box-border">
       <Link href={"/"}>
         <BiHomeSmile color="#fff" size={46} />
       </Link>
@@ -17,7 +17,7 @@ function ProjectsContainer() {
           return (
             <div
               key={project.id}
-              className="flex flex-col items-center box-border gap-4 w-72"
+              className="flex flex-col items-center box-border gap-4 w-72 border-solid border-[2px] px-2 border-slate-600 rounded"
             >
               <div className="relative w-72 h-72 bg-white flex justify-center items-center rounded-md shadow-md">
                 <Image
@@ -45,8 +45,11 @@ function ProjectsContainer() {
                   </Link>
                 </div>
               </div>
-              <p className="text-base">{project.name}</p>
-              <span className="flex flex-row flex-wrap gap-2 mt-2 mb-2 w-full items-center justify-center">
+              <p className="text-xl text-slate-200">{project.name}</p>
+              <span className="w-full flex flex-wrap wrap whitespace-normal h-28">
+                <p className="text-justify text-slate-400">{project.description}</p>
+              </span>
+              <span className="flex flex-row flex-wrap gap-2 mt-2 mb-4 w-full items-center justify-center">
                 {project.tools.map((tool) => (
                   <span
                     key={tool}

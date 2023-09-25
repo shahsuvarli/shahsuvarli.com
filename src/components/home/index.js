@@ -3,16 +3,23 @@ import styles from "./home.module.css";
 import Stack from "./stack";
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 function HomeContainer() {
   return (
-    <div className="w-[100%] h-screen flex flex-col justify-center items-center">
+    <div className="w-full flex flex-col justify-center items-center">
       <div className={styles.subContainer}>
-        <div className="w-2/5 flex justify-evenly items-center flex-col pr-8">
+        <div className="w-full  flex justify-evenly items-center flex-col p-8">
           <h1 className={styles.contentHeader}>Elvin Shah</h1>
           <p className={styles.position}>frontend developer</p>
-          <span className="text-sm m-4 border border-white rounded-sm">
-            el.shahsuvarli@gmail.com
+          <span className="text-sm m-4 border-solid border-2 border-[#fff6ff55] rounded-lg p-2 shadow-md hover:scale-125 duration-500">
+            <Link
+              href={
+                "mailto:el.shahsuvarli@gmail.com?subject=Hey%20hey&body=Hey Elvin!%0A%0AYou%20have%20a%20perfect%20portfolio!"
+              }
+            >
+              <AiOutlineMail size={24} />
+            </Link>
           </span>
           <div className="flex flex-row justify-center items-center gap-4 h-12">
             <Link

@@ -1,10 +1,10 @@
 [
   {
     "id": 0,
-    "name": "Chat App: Chat Centre",
+    "name": "Chat Centre",
     "githubLink": "https://github.com/shahsuvarli/chat-centre",
     "viewLink": "https://chatcentre.netlify.app/",
-    "description": "Lorem ipsum",
+    "description": "ChatCentre is a feature-rich web application offering real-time messaging to enhance digital connections",
     "image": "/images/chat.jpg",
     "tools": [
       "next",
@@ -16,28 +16,28 @@
   },
   {
     "id": 1,
-    "name": "Dashboard: MS Dash",
+    "name": "MS Dash",
     "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
     "viewLink": "https://ms-dash.netlify.app",
-    "description": "Lorem ipsum",
+    "description": "MS Dashboard offers immediate financial insights, elevating decision-making capabilities.",
     "image": "/images/dashboard.jpg",
     "tools": ["react", "chart.js", "bootstrap"]
   },
   {
     "id": 2,
-    "name": "Delivery App: Foody",
+    "name": "Foody",
     "githubLink": "https://github.com/shahsuvarli/admin-foody",
     "viewLink": "https://food-delivery-admin.netlify.app",
-    "description": "Lorem ipsum",
+    "description": "Foody: Effortless food ordering, swift delivery, and a world of cuisine choices at your fingertips.",
     "image": "/images/delivery.jpg",
     "tools": ["react", "styled-components", "i18n"]
   },
   {
     "id": 3,
-    "name": "CRM App: Lapp",
+    "name": "CRM Lapp",
     "githubLink": "https://github.com/shahsuvarli/lapp",
     "viewLink": "https://lapp.vercel.app",
-    "description": "Lorem ipsum",
+    "description": "CRM Lapp: Seamlessly navigate sales processes, gain instant insights, and supercharge sales management with a click",
     "image": "/images/crm.jpg",
     "tools": [
       "next",

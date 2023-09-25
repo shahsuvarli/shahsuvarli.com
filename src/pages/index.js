@@ -3,7 +3,7 @@ import Layout from "@/components/layout";
 import React from "react";
 import HomeContainer from "../components/home/index";
 
-export default function Home({ children }) {
+export default function Home() {
   return (
     <Layout>
       <Head>
