@@ -39,12 +39,15 @@
     "viewLink": "https://lapp.vercel.app",
     "description": "CRM Lapp: Seamlessly navigate sales processes, gain instant insights, and supercharge sales management with a click",
     "image": "/images/crm.jpg",
-    "tools": [
-      "next",
-      "prisma-orm",
-      "azure",
-      "styled-components",
-      "MUI"
-    ]
+    "tools": ["next", "prisma-orm", "azure", "styled-components", "MUI"]
+  },
+  {
+    "id": 4,
+    "name": "Netlix Clone",
+    "githubLink": "https://github.com/shahsuvarli/movie",
+    "viewLink": "https://netflix-tmdb-api.vercel.app",
+    "description": "Netflix Clone: Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
+    "image": "/images/movie.jpg",
+    "tools": ["next", "tailwind-css", "tmdb-api", "react-icons"]
   }
 ]
