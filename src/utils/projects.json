@@ -7,21 +7,21 @@
     "description": "ChatCentre is a feature-rich web application offering real-time messaging to enhance digital connections",
     "image": "/images/chat.jpg",
     "tools": [
-      "next",
-      "firebase-auth",
+      "Next.JS",
+      "Firebase Auth",
       "MUI",
-      "firebase-firestore",
-      "redux-toolkit"
+      "Firebase Firestore",
+      "Redux Toolkit"
     ]
   },
   {
     "id": 1,
-    "name": "MS Dash",
-    "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
-    "viewLink": "https://ms-dash.netlify.app",
-    "description": "MS Dashboard offers immediate financial insights, elevating decision-making capabilities.",
-    "image": "/images/dashboard.jpg",
-    "tools": ["react", "chart.js", "bootstrap"]
+    "name": "Netlix Clone",
+    "githubLink": "https://github.com/shahsuvarli/movie",
+    "viewLink": "https://notflix-movie.vercel.app",
+    "description": "Netflix Clone: Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
+    "image": "/images/movie.jpg",
+    "tools": ["Next.JS 13", "TailwindCSS", "Next-Auth", "PostgreSQL"]
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
     "viewLink": "https://food-delivery-admin.netlify.app",
     "description": "Foody: Effortless food ordering, swift delivery, and a world of cuisine choices at your fingertips.",
     "image": "/images/delivery.jpg",
-    "tools": ["react", "styled-components", "i18n"]
+    "tools": ["ReactJS", "styled-components", "i18n"]
   },
   {
     "id": 3,
@@ -39,15 +39,15 @@
     "viewLink": "https://lapp.vercel.app",
     "description": "CRM Lapp: Seamlessly navigate sales processes, gain instant insights, and supercharge sales management with a click",
     "image": "/images/crm.jpg",
-    "tools": ["next", "prisma-orm", "azure", "styled-components", "MUI"]
+    "tools": ["Next.JS", "Prisma ORM", "Azure", "styled-components", "MUI"]
   },
   {
     "id": 4,
-    "name": "Netlix Clone",
-    "githubLink": "https://github.com/shahsuvarli/movie",
-    "viewLink": "https://netflix-tmdb-api.vercel.app",
-    "description": "Netflix Clone: Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
-    "image": "/images/movie.jpg",
-    "tools": ["next", "tailwind-css", "tmdb-api", "react-icons"]
+    "name": "MS Dash",
+    "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
+    "viewLink": "https://ms-dash.netlify.app",
+    "description": "MS Dashboard offers immediate financial insights, elevating decision-making capabilities.",
+    "image": "/images/dashboard.jpg",
+    "tools": ["ReactJS", "Chart.js", "Bootstrap"]
   }
 ]
