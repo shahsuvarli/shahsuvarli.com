@@ -18,7 +18,7 @@
     "id": 1,
     "name": "Netlix Clone",
     "githubLink": "https://github.com/shahsuvarli/movie",
-    "viewLink": "https://notflix-movie.vercel.app",
+    "viewLink": "https://notflix-movie-app.vercel.app",
     "description": "Netflix Clone: Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
     "image": "/images/movie.jpg",
     "tools": ["Next.JS 13", "TailwindCSS", "Next-Auth", "PostgreSQL"]
