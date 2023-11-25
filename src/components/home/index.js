@@ -24,7 +24,7 @@ function HomeContainer() {
           <div className="flex flex-row justify-center items-center gap-4 h-12">
             <Link
               href={
-                "https://firebasestorage.googleapis.com/v0/b/portfolio-82fbb.appspot.com/o/Elvin%20Shahsuvarli%20CV.pdf?alt=media&token=19383572-798f-41f9-ab0c-fd50aa6df86b"
+                "https://firebasestorage.googleapis.com/v0/b/portfolio-82fbb.appspot.com/o/Elvin%20Shahsuvarli%20resume.pdf?alt=media&token=3b95340c-0bc7-4cbb-9a24-37b2f1b073b6"
               }
               target="_blank"
             >
