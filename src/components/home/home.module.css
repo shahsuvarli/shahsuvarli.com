@@ -49,8 +49,8 @@
 .button:hover {
   cursor: pointer;
   height: 50px;
-  background: rgba(255, 255, 255, 0.771);
-  color: #000000af;
+  background: rgb(255, 255, 255);
+  color: #000000;
 }
 
 .icons {
