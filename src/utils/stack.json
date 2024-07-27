@@ -1,5 +1,10 @@
 [
   {
+    "href": "https://reactjs.org/",
+    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "alt": "react"
+  },
+  {
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     "alt": "javascript"
@@ -8,11 +13,6 @@
     "href": "https://www.typescriptlang.org",
     "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     "alt": "typescript"
-  },
-  {
-    "href": "https://reactjs.org/",
-    "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-    "alt": "react"
   },
   {
     "href": "https://nextjs.org",

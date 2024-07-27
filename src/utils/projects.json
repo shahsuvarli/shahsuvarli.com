@@ -1,53 +1,105 @@
 [
   {
     "id": 0,
-    "name": "Chat Centre",
-    "githubLink": "https://github.com/shahsuvarli/chat-centre",
-    "viewLink": "https://chatcentre.netlify.app/",
-    "description": "ChatCentre is a feature-rich web application offering real-time messaging to enhance digital connections",
-    "image": "/images/chat.jpg",
-    "tools": [
-      "Next.JS",
-      "Firebase Auth",
-      "MUI",
-      "Firebase Firestore",
-      "Redux Toolkit"
-    ]
+    "name": "Delivery App react-native 🍍",
+    "github": "https://github.com/shahsuvarli/delivery-app-react-native",
+    "view": null,
+    "youtube": "https://www.youtube.com/shorts/i-1A4-UpN1Q",
+    "description": "A mobile application that allows users to order food from a variety of restaurants and have it delivered to their doorstep.",
+    "funcs": [
+      "User Authentication",
+      "Order Management",
+      "Menu Management",
+      "Delivery Management"
+    ],
+    "image": "/images/delivery.jpg",
+    "tools": ["React Native", "Expo", "Firebase auth", "Firebase firestore"],
+    "type": "mobile"
   },
   {
     "id": 1,
-    "name": "Netlix Clone",
-    "githubLink": "https://github.com/shahsuvarli/movie",
-    "viewLink": "https://notflix-movie-app.vercel.app",
-    "description": "Netflix Clone: Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
-    "image": "/images/movie.jpg",
-    "tools": ["Next.JS 13", "TailwindCSS", "Next-Auth", "PostgreSQL"]
+    "name": "Chat Centre 💬",
+    "github": "https://github.com/shahsuvarli/chat-centre",
+    "view": null,
+    "youtube": "https://www.youtube.com/watch?v=yyD8J5le1CU",
+    "description": "Feature-rich web application offering real-time messaging to enhance digital connections.",
+    "funcs": [
+      "Instant Messaging",
+      "Group Chats",
+      "File Sharing",
+      "Custom Emojis and Stickers"
+    ],
+    "image": "/images/chat.jpg",
+    "tools": ["Next.js", "Firebase auth", "MUI", "Firebase firestore", "Redux"],
+    "type": "web"
   },
   {
     "id": 2,
-    "name": "Foody",
-    "githubLink": "https://github.com/shahsuvarli/admin-foody",
-    "viewLink": "https://food-delivery-admin.netlify.app",
-    "description": "Foody: Effortless food ordering, swift delivery, and a world of cuisine choices at your fingertips.",
-    "image": "/images/delivery.jpg",
-    "tools": ["ReactJS", "styled-components", "i18n"]
+    "name": "Notflix (Netflix clone) 🍿",
+    "github": "https://github.com/shahsuvarli/movie",
+    "view": "https://notflix-movie-app.vercel.app",
+    "youtube": null,
+
+    "description": "Dive into a realm of entertainment, where you can effortlessly stream your beloved movies and series with a mere click.",
+    "funcs": [
+      "User Authentication",
+      "Movie/Cast Search",
+      "Movie Details",
+      "Movie Categories"
+    ],
+    "image": "/images/movie.jpg",
+    "tools": ["Next.js", "TailwindCSS", "Next-Auth", "PostgreSQL"],
+    "type": "web"
   },
   {
     "id": 3,
-    "name": "CRM Lapp",
-    "githubLink": "https://github.com/shahsuvarli/lapp",
-    "viewLink": "https://lapp.vercel.app",
-    "description": "CRM Lapp: Seamlessly navigate sales processes, gain instant insights, and supercharge sales management with a click",
-    "image": "/images/crm.jpg",
-    "tools": ["Next.JS", "Prisma ORM", "Azure", "styled-components", "MUI"]
+    "name": "Foody 🍔",
+    "github": "https://github.com/shahsuvarli/admin-foody",
+    "youtube": "https://www.youtube.com/watch?v=Oatci7LsouQ",
+    "view": null,
+    "description": "Effortless food ordering, swift delivery, and a world of cuisine choices at your fingertips.",
+    "funcs": [
+      "User Authentication",
+      "Order Management",
+      "Menu Management",
+      "Delivery Management"
+    ],
+    "image": "/images/delivery.jpg",
+    "tools": ["React.js", "styled-components", "i18n"],
+    "type": "web"
   },
   {
     "id": 4,
-    "name": "MS Dash",
-    "githubLink": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
-    "viewLink": "https://ms-dash.netlify.app",
-    "description": "MS Dashboard offers immediate financial insights, elevating decision-making capabilities.",
+    "name": "CRM Lapp 📦",
+    "github": "https://github.com/shahsuvarli/lapp",
+    "youtube": null,
+    "view": "https://lapp3.vercel.app",
+    "description": "Seamlessly navigate sales processes, gain instant insights, and supercharge sales management with a click",
+    "funcs": [
+      "User Authentication",
+      "Customer Management",
+      "Product Management",
+      "Order Management"
+    ],
+    "image": "/images/crm.jpg",
+    "tools": ["Next.js", "Prisma ORM", "Azure", "styled-components", "MUI"],
+    "type": "web"
+  },
+  {
+    "id": 5,
+    "name": "MS Dash 📊",
+    "github": "https://github.com/shahsuvarli/ms-dashbord-with-mui",
+    "youtube": "https://www.youtube.com/watch?v=3dSedySG3Xc",
+    "view": null,
+    "description": "Offers immediate financial insights, elevating decision-making capabilities.",
+    "funcs": [
+      "Financial Overview",
+      "Sales Overview",
+      "Product Overview",
+      "Customer Overview"
+    ],
     "image": "/images/dashboard.jpg",
-    "tools": ["ReactJS", "Chart.js", "Bootstrap"]
+    "tools": ["React.js", "Chart.js", "Bootstrap"],
+    "type": "web"
   }
 ]

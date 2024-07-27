@@ -18,12 +18,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(
-    109.6deg,
-    rgb(36, 45, 57) 11.2%,
-    rgb(44, 114, 189) 51.2%,
-    rgb(0, 0, 0) 98.6%
-  );
+  background-color: #15131a;
 }
 
 h1,

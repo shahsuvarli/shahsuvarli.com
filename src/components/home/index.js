@@ -1,9 +1,8 @@
-import React from "react";
-import styles from "./home.module.css";
-import Stack from "./stack";
 import Link from "next/link";
+import styles from "./home.module.css";
 import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import Stack from "./stack";
 
 function HomeContainer() {
   return (
@@ -27,7 +26,7 @@ function HomeContainer() {
             </Link>
             <Link
               href={
-                "mailto:el.shahsuvarli@gmail.com?subject=Hey%20hey&body=Hey Elvin!%0A%0AYou%20have%20a%20perfect%20portfolio!"
+                "mailto:shahsuvarli.elvin@gmail.com?subject=Hey%20hey&body=Hey Elvin!%0A%0AYou%20have%20a%20perfect%20portfolio!"
               }
             >
               <AiOutlineMail size={30} color="#dddada" />
